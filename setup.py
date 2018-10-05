@@ -4,7 +4,8 @@ Manipulate audio with an simple and easy high level interface.
 See the README file for details, usage info, and a list of gotchas.
 """
 
-from setuptools import setup
+import setuptools
+from distutils.core import setup
 
 setup(
     name='pydub',
