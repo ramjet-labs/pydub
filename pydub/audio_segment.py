@@ -600,7 +600,7 @@ class AudioSegment(object):
 
             return False
 
-        if is_format("wav"):
+        if is_format("wav") and not parameters:
             try:
                 return cls._from_safe_wav(file)
             except:
